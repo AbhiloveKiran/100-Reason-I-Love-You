@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Reason I Love You</title>
+  <link rel="stylesheet" href="/AbhiAndKiran/assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/AbhiAndKiran/assets/css/main.css">
+  <link rel="stylesheet" href="/AbhiAndKiran/assets/css/noscript.css">
+</head>
+<style>
+
+  #container {
+    text-align: center;
+    margin-top: 100px;
+    
+    
+  }
+  #roll{
+    border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: none;
+  }
+  #loveImg{
+    display: inline-block;
+    transition: transform 0.3s;
+  background: none;
+  width: 60px;
+  height: 50px;
+
+  }
+  h1{
+    font-size: 50px;
+  }
+
+#loveImg:hover {
+  transform: scale(1.1);
+}
+  #roll:hover{
+  cursor: pointer;
+  }
+  #lovePara{
+    font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border:none
+  text-align: center;
+  }
+  #photo {
+      width: 350px;
+      height: 350px;
+      padding-bottom: 15px;
+      opacity: 0;
+      transition: opacity 0.5s;
+      cursor: pointer;
+    }
+    #photo:hover {
+      transform: scale(1.1);
+    }
+
+    #gal{
+      padding-top: 205px;
+      position: relative;
+      bottom: 20px;
+    }
+   
+    h1{
+      position: relative;
+      bottom: 40px;
+    }
+
+    #video-slideshow {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video-container {
+  flex-shrink: 0;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.video-container video {
+  width: 100%;
+}
+
+.controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.controls button {
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+    
+</style>
+<body>
+  <div id="container">
+    <h1 style="font-weight: bolder; font-style: italic; font-size: 70px;" id="resHead">100 Reasons Why I Love You</h1>
+    <img src="/AbhiAndKiran/love/photo5.jpeg" alt="" id="photo"><br>
+    <p id="lovePara"></p>
+    <button onclick="changePhoto()" id="roll"><img src="/AbhiAndKiran/love/heart3.jpg" alt="" id="loveImg"></button>
+  </div>
+
+  <!--Gallary-->
+  <section class="wrapper style1 align-center">
+    <div class="inner">
+      <h2>Gallery</h2>
+      <p> I found the reason for my smile, the day I found, will you let me be the reason for your smile.</p>
+    
+    </div>
+
+    <!-- Gallery -->
+      <div class="gallery style2 medium lightbox onscroll-fade-in">
+        <article>
+          <a href="AbhiAndKiran/slid/p1.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p1.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p2.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p2.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p3.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p3.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p4.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p4.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p5.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p5.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p6.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p6.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p7.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p7.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p8.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p8.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p9.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p9.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p10.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p10.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p11.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p11.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p12.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p12.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p13.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p13.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p14.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p14.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p15.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p15.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p16.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p16.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p17.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p17.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p18.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p18.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p19.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p19.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p20.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p20.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>LI Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p21.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p21.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>I Love You</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <a href="/AbhiAndKiran/slid/p22.jpeg" class="image">
+            <img src="/AbhiAndKiran/slid/p22.jpeg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+            <ul class="actions fixed">
+              <li><span class="button small">Details</span></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+  
+
+</section>
+</body>
+<script>
+  const reasonsILoveYou = [
+  "You have a kind heart.",
+  "You make me laugh.",
+  "You always support me.",
+  "You are beautiful inside and out.",
+  "You are my best friend.",
+  "You inspire me to be a better person.",
+  "You understand me like no one else.",
+  "You make me feel loved and appreciated.",
+  "You have a great sense of humor.",
+  "You always know how to make me smile.",
+  "You are compassionate and caring.",
+  "You have a positive outlook on life.",
+  "You are always there for me.",
+  "You bring out the best in me.",
+  "You make every day brighter.",
+  "You accept me for who I am.",
+  "You have a loving and nurturing nature.",
+  "You listen to me with patience and understanding.",
+  "You make me feel safe and protected.",
+  "You support my dreams and goals.",
+  "You are my rock during tough times.",
+  "You make sacrifices for our relationship.",
+  "You are trustworthy and loyal.",
+  "You are my partner in crime.",
+  "You have a beautiful smile.",
+  "You have a strong work ethic.",
+  "You are intelligent and wise.",
+  "You have a unique and special way of thinking.",
+  "You are adventurous and open to new experiences.",
+  "You have a great taste in music.",
+  "You are an amazing cook.",
+  "You have a great fashion sense.",
+  "You are always honest with me.",
+  "You have a contagious enthusiasm for life.",
+  "You are talented and creative.",
+  "You make me feel like I can achieve anything.",
+  "You are my biggest cheerleader.",
+  "You are great with kids.",
+  "You have a beautiful voice.",
+  "You have a strong sense of empathy.",
+  "You make my heart skip a beat.",
+  "You are the calm in my storm.",
+  "You are my safe haven.",
+  "You make me feel like I belong.",
+  "You challenge me to be a better person.",
+  "You love me unconditionally.",
+  "You have a warm and gentle touch.",
+  "You are full of surprises.",
+  "You bring out the childlike joy in me.",
+  "You are my confidant.",
+  "You make me feel like I'm the most important person in the world.",
+  "You have a great sense of style.",
+  "You are thoughtful and considerate.",
+  "You have a strong sense of justice.",
+  "You make me feel like I'm home.",
+  "You are my ray of sunshine.",
+  "You have a magnetic personality.",
+  "You have a positive impact on everyone around you.",
+  "You make even the ordinary moments extraordinary.",
+  "You have a beautiful and infectious laughter.",
+  "You have a great sense of adventure.",
+  "You are my source of strength.",
+  "You love and care for my family as your own.",
+  "You have a captivating presence.",
+  "You make every day an adventure.",
+  "You have a way of making everything better.",
+  "You are patient and understanding.",
+  "You are my soulmate.",
+  "You are my partner for life.",
+  "You have a gentle and nurturing spirit.",
+  "You make me feel like the luckiest person in the world.",
+  "You accept me completely, flaws and all.",
+  "You make me feel alive and loved.",
+  "You have a heart of gold.",
+  "You are my greatest support system.",
+  "You make our house a home.",
+ 
+];
+
+const lp = document.getElementById("lovePara");
+const roll = document.getElementById("roll");
+var photo = document.getElementById('photo');
+let isPhotoEnlarged = false;
+
+roll.addEventListener("click", function() {
+  const idx = Math.floor(Math.random() * reasonsILoveYou.length);
+  const love = reasonsILoveYou[idx];
+  lp.textContent = love;
+});
+
+photo.addEventListener("click", function()
+{
+  if(isPhotoEnlarged)
+  {
+    photo.style.transform = "scale(1)";
+    photo.style.paddingTop = "10px";
+    lovePara.style.marginTop = "-40px";
+  }
+  else {
+    photo.style.transform = "scale(3)";
+    photo.style.paddingTop = "55px";
+    photo.style.paddingBottom = "30px";
+    lovePara.style.marginTop = "250px";
+  }
+  isPhotoEnlarged = !isPhotoEnlarged;
+});
+
+var currentPhotoIndex = 1;
+var numPhotos = 77;
+
+function changePhoto() {
+  currentPhotoIndex++;
+  if (currentPhotoIndex > numPhotos) {
+    currentPhotoIndex = 1;
+  }
+  photo.style.opacity = 0;
+  setTimeout(function() {
+    photo.src = "/AbhiAndKiran/love/photo" + currentPhotoIndex + ".jpeg";
+    photo.style.opacity = 1;
+  }, 500);
+}
+
+// Set the initial photo
+photo.src = "/AbhiAndKiran/love/photo1.jpeg";
+photo.style.opacity = 1;
+
+
+
+
+</script>
+
+<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</html>
+
+
+
+
